@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  height: 845px;
+  width: 615px;
+  background: #fff;
+  position: relative;
+}
+
+.container .cover {
+  position: absolute;
+  height: 870px;
+  width: 615px;
+  background: rgba(30, 0, 47, 0.712);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  font-family: 'Srisakdi', cursive;
+  font-weight: 100;
+}
+
+.container .cover h1 {
+  letter-spacing: 3px;
+  color: #FBB317;
+  font-size: 50px;
+}
+
+.container .cover p {
+  width: 70%;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Bad Script', cursive;
+  text-align: justify;
+}
+
+.container .openers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 845px;
+  width: 615px;
+  overflow: visible;
+  position: absolute;
+}
+
+.container .openers .door1 {
+  position: relative;
+  z-index: 4;
+  width: 50%;
+  -webkit-box-shadow: 0px 0px 10px 0px #000;
+          box-shadow: 0px 0px 10px 0px #000;
+}
+
+.container .openers .door2 {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+  opacity: 1;
+  -webkit-box-shadow: 0px 0px 10px 0px #000;
+          box-shadow: 0px 0px 10px 0px #000;
+}
+
+.container .openers #main {
+  position: relative;
+}
+/*# sourceMappingURL=main.css.map */
