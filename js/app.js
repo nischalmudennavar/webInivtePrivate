@@ -263,11 +263,20 @@ gsap.from('#flower3',{
   
 
     gsap.from('.cover',{
-        delay:4,
+        delay:5,
         display:'none',
         opacity:0,
         color:'#FBB317'
 
+    })
+    gsap.from('#clif',{
+        delay:0,
+        translateY:300
+    })
+  
+    gsap.from('#couple',{
+        
+        translateY:100
     })
   
 

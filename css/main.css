@@ -139,7 +139,7 @@ body {
   }
   body .container .cover span.date {
     position: relative;
-    bottom: -40px;
+    bottom: -20px;
     height: auto;
   }
 }
