@@ -26,7 +26,7 @@ body {
   height: 90vh;
   width: 100%;
   padding-bottom: 2px;
-  background: rgba(30, 0, 47, 0.712);
+  background: rgba(30, 0, 47, 0.842);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,30 +41,38 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
-  font-family: 'Srisakdi', cursive;
   font-weight: 100;
 }
 
 .container .cover h1 {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: #FBB317;
-  font-size: 50px;
+  font-size: 55px;
+  font-weight: 400;
+  font-family: 'Charm', cursive;
 }
 
 .container .cover p {
   width: 70%;
   font-size: 20px;
-  font-weight: 100;
-  font-family: 'Bad Script', cursive;
+  font-weight: 500;
+  font-family: 'Charm', cursive;
   text-align: justify;
   letter-spacing: 3px;
+  font-size: 30px;
 }
 
 .container .cover h2 {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Charm', cursive;
   letter-spacing: 1px;
   font-weight: 100;
   margin: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.container .cover h2:nth-child(1) {
+  font-size: 15px;
 }
 
 .container .cover span.date a button {
@@ -130,8 +138,8 @@ body {
   body .container #PRINT {
     height: 100vh;
     width: 100%;
-    -webkit-transform: scale(1.3);
-            transform: scale(1.3);
+    -webkit-transform: scale(1.35);
+            transform: scale(1.35);
     overflow-y: hidden;
   }
   body .container .cover {

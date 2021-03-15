@@ -305,8 +305,8 @@ gsap.from('#flower3',{
         })
         gsap.to('#clif',{
             delay:0,
-            translateY:-20,
-            translateX:-70
+            translateY:-65,
+            translateX:-80,
         })
         // scripts
     }
