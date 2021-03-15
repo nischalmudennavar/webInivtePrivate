@@ -47,7 +47,7 @@ body {
 .container .cover h1 {
   letter-spacing: 2px;
   color: #FBB317;
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 400;
   font-family: 'Charm', cursive;
 }
@@ -59,7 +59,7 @@ body {
   font-family: 'Charm', cursive;
   text-align: justify;
   letter-spacing: 3px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .container .cover h2 {
@@ -150,13 +150,20 @@ body {
   }
   body .container .cover h1.heading {
     position: relative;
+    font-size: 35px;
+    line-height: 1px;
   }
   body .container .cover p {
     width: 90%;
+    font-size: 25px;
+  }
+  body .container .cover h2 {
+    font-size: 18px;
   }
   body .container .cover span.date {
     position: relative;
     bottom: -10px;
+    padding: 10px;
     height: auto;
   }
 }
