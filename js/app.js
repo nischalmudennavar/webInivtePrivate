@@ -312,7 +312,7 @@ gsap.from('#flower3',{
     }
     
     gsap.from('.cover',{
-        delay:5,
+        delay:3,
         display:'none',
         opacity:0,
         color:'#FBB317'

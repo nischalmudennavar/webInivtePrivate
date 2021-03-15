@@ -60,6 +60,13 @@ body {
   letter-spacing: 3px;
 }
 
+.container .cover h2 {
+  font-family: 'Satisfy', cursive;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin: 10px;
+}
+
 .container .cover span.date a button {
   padding: 15px;
   font-size: 15px;
@@ -141,7 +148,7 @@ body {
   }
   body .container .cover span.date {
     position: relative;
-    bottom: -20px;
+    bottom: -10px;
     height: auto;
   }
 }
